@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>School Mission & Vision</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  
+  
+</head>
+<body style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+url(background.jpg); background-size: cover; background-attachment: fixed;">
+    <style>
+        
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #141414;
+  line-height: 1.6;
+}
+
+header {
+  background: #16165c;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header .logo img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+main {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+
+
+/* Animation for fading in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.mission, .vision, .corevalues {
+  animation: fadeIn 2s ease-out;
+  opacity: 0;
+}
+
+.mission {
+  animation-delay: 0.5s;
+}
+
+.vision {
+  animation-delay: 1s;
+}
+.corevalues {
+  animation-delay: 2s;
+}
+/* Elements in view */
+.mission.in-view, .vision.in-view, .corevalues.in-view{
+  animation: fadeIn 2s ease-out forwards;
+}
+nav{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: #111111;
+
+}
+ 
+#main {margin-left: 120px}
+  @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+    </style>
+  <header>
+    <div class="logo">
+      <img src="hgb logo.jpg" alt="School Logo">
+      <h1>HGB COLLEGE</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="mission  w3-hover-blue  w3-hover-text-black " >
+      <h2>OUR MISSION</h2>
+      <p>
+        HGBaquiran College commits itself to offer quality education that would develop a well rounded human being who possesses desirable values, attitudes and skills thereby enabling him/her to be locally competitive, live a productive life, cope with the social and moral challenges of the modern world and be able to contribute to nation building.
+      </p>
+    </section>
+
+    <section class="vision  w3-hover-blue w3-hover-text-black ">
+      <h2>Our VISION</h2>
+      <p>
+       A well rounded human being. Equipped with the values, attitudes and skills that will enable him/her to be locally and globally competitive, live a productive life, contribute to nation building, and meet creatively and resourcefully the social and moral challenges of the world
+      </p>
+    </section>
+    <section class="corevalues  w3-hover-blue w3-hover-text-black ">
+        <h2>CORE VALUES</h2>
+        <p>
+            Dedication, Diligence, Determination, Devotion and Discipline.
+        </p>
+      </section>
+  </main>
+    <br>
+  
+<div >
+    <nav aria-label="...">
+        <ul class="pagination pagination-lg ">
+          <li class="page-item active" aria-current="page"><a class="page-link" href="../AboutUs/about.html"><span>1</span></a>
+          </li>
+          <li class="page-item"><a class="page-link" href="../AboutUs/HGBHISTORY.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="../AboutUs/mvc.html">3</a></li>
+        </ul>
+      </nav>
+    </div>     
+
+
+  <script src="mvc.js"></script>
+</body>
+</html>
